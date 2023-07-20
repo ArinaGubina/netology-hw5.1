@@ -1,0 +1,21 @@
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card{
+  width: 18rem;
+  border-radius: 5px;
+  border: 1px solid rgb(203, 69, 203);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.card img{
+  width: 100%;
+}
+.card-body{
+  padding: 10px;
+}
